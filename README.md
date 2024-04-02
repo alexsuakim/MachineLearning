@@ -69,3 +69,11 @@ Finding the same person in a pedestrain crossing image set through implementing 
 - PCA can significantly reduce features while preserving data structure, but the choice of components to retain is critical to maintain data integrity.
 - Useful to simplify data, speed up algorithms, and mitigate the curse of dimensionality.
 
+## Assignment 4
+Implementing an image segmentation algorithm using GMM
+<a href="https://github.com/alexsuakim/STAT4609/blob/main/COMP3670-A4.ipynb">Notebook for Assignment 4</a>
+1. GMM
+2. E-M algorithm
+3. Image segmentation
+- Gaussian Mixture Models (GMM) use a probabilistic approach to represent the presence of subpopulations within an overall population without requiring labels. The Expectation-Maximization (E-M) algorithm iteratively refines the parameters of the GMM to maximize the likelihood of the data.
+- GMM is effective for image segmentation when the image contains multiple overlapping intensities and you wish to identify different components (e.g., background vs. objects).
